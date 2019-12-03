@@ -2,6 +2,79 @@
 # yarn lockfile v1
 
 
+"@jest/types@^24.9.0":
+  version "24.9.0"
+  resolved "https://registry.npm.taobao.org/@jest/types/download/@jest/types-24.9.0.tgz#63cb26cb7500d069e5a389441a7c6ab5e909fc59"
+  integrity sha1-Y8smy3UA0Gnlo4lEGnxqtekJ/Fk=
+  dependencies:
+    "@types/istanbul-lib-coverage" "^2.0.0"
+    "@types/istanbul-reports" "^1.1.1"
+    "@types/yargs" "^13.0.0"
+
+"@types/istanbul-lib-coverage@*", "@types/istanbul-lib-coverage@^2.0.0":
+  version "2.0.1"
+  resolved "https://registry.npm.taobao.org/@types/istanbul-lib-coverage/download/@types/istanbul-lib-coverage-2.0.1.tgz#42995b446db9a48a11a07ec083499a860e9138ff"
+  integrity sha1-QplbRG25pIoRoH7Ag0mahg6ROP8=
+
+"@types/istanbul-lib-report@*":
+  version "1.1.1"
+  resolved "https://registry.npm.taobao.org/@types/istanbul-lib-report/download/@types/istanbul-lib-report-1.1.1.tgz#e5471e7fa33c61358dd38426189c037a58433b8c"
+  integrity sha1-5Ucef6M8YTWN04QmGJwDelhDO4w=
+  dependencies:
+    "@types/istanbul-lib-coverage" "*"
+
+"@types/istanbul-reports@^1.1.1":
+  version "1.1.1"
+  resolved "https://registry.npm.taobao.org/@types/istanbul-reports/download/@types/istanbul-reports-1.1.1.tgz#7a8cbf6a406f36c8add871625b278eaf0b0d255a"
+  integrity sha1-eoy/akBvNsit2HFiWyeOrwsNJVo=
+  dependencies:
+    "@types/istanbul-lib-coverage" "*"
+    "@types/istanbul-lib-report" "*"
+
+"@types/jest@^24.0.23":
+  version "24.0.23"
+  resolved "https://registry.npm.taobao.org/@types/jest/download/@types/jest-24.0.23.tgz#046f8e2ade026fe831623e361a36b6fb9a4463e4"
+  integrity sha1-BG+OKt4Cb+gxYj42Gja2+5pEY+Q=
+  dependencies:
+    jest-diff "^24.3.0"
+
+"@types/node@^12.12.14":
+  version "12.12.14"
+  resolved "https://registry.npm.taobao.org/@types/node/download/@types/node-12.12.14.tgz?cache=0&sync_timestamp=1574724301806&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40types%2Fnode%2Fdownload%2F%40types%2Fnode-12.12.14.tgz#1c1d6e3c75dba466e0326948d56e8bd72a1903d2"
+  integrity sha1-HB1uPHXbpGbgMmlI1W6L1yoZA9I=
+
+"@types/prop-types@*":
+  version "15.7.3"
+  resolved "https://registry.npm.taobao.org/@types/prop-types/download/@types/prop-types-15.7.3.tgz#2ab0d5da2e5815f94b0b9d4b95d1e5f243ab2ca7"
+  integrity sha1-KrDV2i5YFflLC51LldHl8kOrLKc=
+
+"@types/react-dom@^16.9.4":
+  version "16.9.4"
+  resolved "https://registry.npm.taobao.org/@types/react-dom/download/@types/react-dom-16.9.4.tgz?cache=0&sync_timestamp=1573057763685&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40types%2Freact-dom%2Fdownload%2F%40types%2Freact-dom-16.9.4.tgz#0b58df09a60961dcb77f62d4f1832427513420df"
+  integrity sha1-C1jfCaYJYdy3f2LU8YMkJ1E0IN8=
+  dependencies:
+    "@types/react" "*"
+
+"@types/react@*", "@types/react@^16.9.14":
+  version "16.9.14"
+  resolved "https://registry.npm.taobao.org/@types/react/download/@types/react-16.9.14.tgz#7f1158ce450b4b5aa83b1c5e1324fa75f348bdd1"
+  integrity sha1-fxFYzkULS1qoOxxeEyT6dfNIvdE=
+  dependencies:
+    "@types/prop-types" "*"
+    csstype "^2.2.0"
+
+"@types/yargs-parser@*":
+  version "13.1.0"
+  resolved "https://registry.npm.taobao.org/@types/yargs-parser/download/@types/yargs-parser-13.1.0.tgz#c563aa192f39350a1d18da36c5a8da382bbd8228"
+  integrity sha1-xWOqGS85NQodGNo2xajaOCu9gig=
+
+"@types/yargs@^13.0.0":
+  version "13.0.3"
+  resolved "https://registry.npm.taobao.org/@types/yargs/download/@types/yargs-13.0.3.tgz#76482af3981d4412d65371a318f992d33464a380"
+  integrity sha1-dkgq85gdRBLWU3GjGPmS0zRko4A=
+  dependencies:
+    "@types/yargs-parser" "*"
+
 abab@^1.0.3:
   version "1.0.4"
   resolved "https://registry.npm.taobao.org/abab/download/abab-1.0.4.tgz?cache=0&sync_timestamp=1573609024450&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fabab%2Fdownload%2Fabab-1.0.4.tgz#5faad9c2c07f60dd76770f71cf025b62a63cfd4e"
@@ -142,12 +215,17 @@ ansi-regex@^3.0.0:
   resolved "https://registry.npm.taobao.org/ansi-regex/download/ansi-regex-3.0.0.tgz?cache=0&sync_timestamp=1570188663907&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fansi-regex%2Fdownload%2Fansi-regex-3.0.0.tgz#ed0317c322064f79466c02966bddb605ab37d998"
   integrity sha1-7QMXwyIGT3lGbAKWa922Bas32Zg=
 
+ansi-regex@^4.0.0:
+  version "4.1.0"
+  resolved "https://registry.npm.taobao.org/ansi-regex/download/ansi-regex-4.1.0.tgz?cache=0&sync_timestamp=1570188663907&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fansi-regex%2Fdownload%2Fansi-regex-4.1.0.tgz#8b9f8f08cf1acb843756a839ca8c7e3168c51997"
+  integrity sha1-i5+PCM8ay4Q3Vqg5yox+MWjFGZc=
+
 ansi-styles@^2.2.1:
   version "2.2.1"
   resolved "https://registry.npm.taobao.org/ansi-styles/download/ansi-styles-2.2.1.tgz?cache=0&sync_timestamp=1573557628456&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fansi-styles%2Fdownload%2Fansi-styles-2.2.1.tgz#b432dd3358b634cf75e1e4664368240533c1ddbe"
   integrity sha1-tDLdM1i2NM914eRmQ2gkBTPB3b4=
 
-ansi-styles@^3.0.0, ansi-styles@^3.2.1:
+ansi-styles@^3.0.0, ansi-styles@^3.2.0, ansi-styles@^3.2.1:
   version "3.2.1"
   resolved "https://registry.npm.taobao.org/ansi-styles/download/ansi-styles-3.2.1.tgz?cache=0&sync_timestamp=1573557628456&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fansi-styles%2Fdownload%2Fansi-styles-3.2.1.tgz#41fbb20243e50b12be0f04b8dedbf07520ce841d"
   integrity sha1-QfuyAkPlCxK+DwS43tvwdSDOhB0=
@@ -2097,6 +2175,11 @@ cssom@0.3.x, "cssom@>= 0.3.2 < 0.4.0":
   dependencies:
     cssom "0.3.x"
 
+csstype@^2.2.0:
+  version "2.6.7"
+  resolved "https://registry.npm.taobao.org/csstype/download/csstype-2.6.7.tgz?cache=0&sync_timestamp=1575229487110&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fcsstype%2Fdownload%2Fcsstype-2.6.7.tgz#20b0024c20b6718f4eda3853a1f5a1cce7f5e4a5"
+  integrity sha1-ILACTCC2cY9O2jhTofWhzOf15KU=
+
 currently-unhandled@^0.4.1:
   version "0.4.1"
   resolved "https://registry.npm.taobao.org/currently-unhandled/download/currently-unhandled-0.4.1.tgz#988df33feab191ef799a61369dd76c17adf957ea"
@@ -2288,6 +2371,11 @@ detect-port-alt@1.1.6:
   dependencies:
     address "^1.0.1"
     debug "^2.6.0"
+
+diff-sequences@^24.9.0:
+  version "24.9.0"
+  resolved "https://registry.npm.taobao.org/diff-sequences/download/diff-sequences-24.9.0.tgz?cache=0&sync_timestamp=1566444249037&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fdiff-sequences%2Fdownload%2Fdiff-sequences-24.9.0.tgz#5715d6244e2aa65f48bba0bc972db0b0b11e95b5"
+  integrity sha1-VxXWJE4qpl9Iu6C8ly2wsLEelbU=
 
 diff@^3.2.0:
   version "3.5.0"
@@ -4386,6 +4474,16 @@ jest-diff@^20.0.3:
     jest-matcher-utils "^20.0.3"
     pretty-format "^20.0.3"
 
+jest-diff@^24.3.0:
+  version "24.9.0"
+  resolved "https://registry.npm.taobao.org/jest-diff/download/jest-diff-24.9.0.tgz#931b7d0d5778a1baf7452cb816e325e3724055da"
+  integrity sha1-kxt9DVd4obr3RSy4FuMl43JAVdo=
+  dependencies:
+    chalk "^2.0.1"
+    diff-sequences "^24.9.0"
+    jest-get-type "^24.9.0"
+    pretty-format "^24.9.0"
+
 jest-docblock@^20.0.3:
   version "20.0.3"
   resolved "https://registry.npm.taobao.org/jest-docblock/download/jest-docblock-20.0.3.tgz#17bea984342cc33d83c50fbe1545ea0efaa44712"
@@ -4407,6 +4505,11 @@ jest-environment-node@^20.0.3:
   dependencies:
     jest-mock "^20.0.3"
     jest-util "^20.0.3"
+
+jest-get-type@^24.9.0:
+  version "24.9.0"
+  resolved "https://registry.npm.taobao.org/jest-get-type/download/jest-get-type-24.9.0.tgz#1684a0c8a50f2e4901b6644ae861f579eed2ef0e"
+  integrity sha1-FoSgyKUPLkkBtmRK6GH1ee7S7w4=
 
 jest-haste-map@^20.0.4:
   version "20.0.5"
@@ -6208,6 +6311,16 @@ pretty-format@^20.0.3:
     ansi-regex "^2.1.1"
     ansi-styles "^3.0.0"
 
+pretty-format@^24.9.0:
+  version "24.9.0"
+  resolved "https://registry.npm.taobao.org/pretty-format/download/pretty-format-24.9.0.tgz#12fac31b37019a4eea3c11aa9a959eb7628aa7c9"
+  integrity sha1-EvrDGzcBmk7qPBGqmpWet2KKp8k=
+  dependencies:
+    "@jest/types" "^24.9.0"
+    ansi-regex "^4.0.0"
+    ansi-styles "^3.2.0"
+    react-is "^16.8.4"
+
 private@^0.1.6, private@^0.1.7, private@^0.1.8:
   version "0.1.8"
   resolved "https://registry.npm.taobao.org/private/download/private-0.1.8.tgz#2381edb3689f7a53d653190060fcf822d2f368ff"
@@ -6427,7 +6540,7 @@ react-error-overlay@^4.0.1:
   resolved "https://registry.npm.taobao.org/react-error-overlay/download/react-error-overlay-4.0.1.tgz#417addb0814a90f3a7082eacba7cee588d00da89"
   integrity sha1-QXrdsIFKkPOnCC6sunzuWI0A2ok=
 
-react-is@^16.8.1:
+react-is@^16.8.1, react-is@^16.8.4:
   version "16.12.0"
   resolved "https://registry.npm.taobao.org/react-is/download/react-is-16.12.0.tgz?cache=0&sync_timestamp=1574323625120&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Freact-is%2Fdownload%2Freact-is-16.12.0.tgz#2cc0fe0fba742d97fd527c42a13bec4eeb06241c"
   integrity sha1-LMD+D7p0LZf9UnxCoTvsTusGJBw=
@@ -7690,6 +7803,11 @@ typedarray@^0.0.6:
   version "0.0.6"
   resolved "https://registry.npm.taobao.org/typedarray/download/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
+
+typescript@^3.7.2:
+  version "3.7.2"
+  resolved "https://registry.npm.taobao.org/typescript/download/typescript-3.7.2.tgz#27e489b95fa5909445e9fef5ee48d81697ad18fb"
+  integrity sha1-J+SJuV+lkJRF6f717kjYFpetGPs=
 
 uglify-js@3.4.x:
   version "3.4.10"
