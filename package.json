@@ -1,10 +1,11 @@
 {
-  "name": "awesome-react-component",
+  "name": "@jonathanleelx/awesome-react-component",
   "version": "1.0.0",
   "description": "A awesome  react component",
   "author": "JonathanLee-LX",
+  "private": false,
   "license": "MIT",
-  "repository": "JonathanLee-LX/awesome-react-component",
+  "repository": "git@github.com:JonathanLee-LX/awesome-react-component.git",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "jsnext:main": "dist/index.es.js",
