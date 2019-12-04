@@ -1,8 +1,8 @@
 # awesome-react-component
 
-> A awesome  react component
+> A awesome react component
 
-[![NPM](https://img.shields.io/npm/v/awesome-react-component.svg)](https://www.npmjs.com/package/awesome-react-component) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![NPM](https://img.shields.io/npm/v/@jonathanleelx/awesome-react-component.svg)](https://www.npmjs.com/package/@jonathanleelx/awesome-react-component) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 ## Install
 
@@ -13,15 +13,13 @@ npm install --save awesome-react-component
 ## Usage
 
 ```tsx
-import * as React from 'react'
+import * as React from "react";
 
-import MyComponent from 'awesome-react-component'
+import MyComponent from "awesome-react-component";
 
 class Example extends React.Component {
-  render () {
-    return (
-      <MyComponent />
-    )
+  render() {
+    return <MyComponent />;
   }
 }
 ```
