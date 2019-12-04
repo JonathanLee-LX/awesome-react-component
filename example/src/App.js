@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-import AwesomeTitle from "awesome-react-component";
+import AwesomeTitle from "@jonathanleelx/awesome-react-component";
 
 export default class App extends Component {
   render() {
