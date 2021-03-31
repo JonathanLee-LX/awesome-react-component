@@ -2,10 +2,8 @@
 # yarn lockfile v1
 
 
-"@jonathanleelx/awesome-react-component@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.npmjs.org/@jonathanleelx/awesome-react-component/-/awesome-react-component-1.0.0.tgz#88a69f9b8ca450fda4cabee89c10af451b34cee5"
-  integrity sha512-S2v1yCwSup3Mj7NCOYR/r4wyoBl6HuLzObf2LuJs8Ph9aZGK+StU2XdeIKuph6yttDm+2sQmU6+849UE98CIzw==
+"@jonathanleelx/awesome-react-component@link:..":
+  version "1.0.1"
 
 abab@^1.0.3:
   version "1.0.4"
@@ -391,10 +389,6 @@ autoprefixer@^6.3.1:
     num2fraction "^1.2.2"
     postcss "^5.2.16"
     postcss-value-parser "^3.2.3"
-
-"awesome-react-component@link:..":
-  version "0.0.0"
-  uid ""
 
 aws-sign2@~0.7.0:
   version "0.7.0"
@@ -8200,9 +8194,9 @@ xtend@^4.0.0:
   integrity sha1-u3J3n1+kZRhrH0OPZ0+jR/2121Q=
 
 y18n@^3.2.1:
-  version "3.2.1"
-  resolved "https://registry.npm.taobao.org/y18n/download/y18n-3.2.1.tgz#6d15fba884c08679c0d77e88e7759e811e07fa41"
-  integrity sha1-bRX7qITAhnnA136I53WegR4H+kE=
+  version "3.2.2"
+  resolved "https://registry.yarnpkg.com/y18n/-/y18n-3.2.2.tgz#85c901bd6470ce71fc4bb723ad209b70f7f28696"
+  integrity sha512-uGZHXkHnhF0XeeAPgnKfPv1bgKAYyVvmNL1xlKsPYZPaIHxGti2hHqvOCQv71XMsLxu1QjergkqogUnms5D3YQ==
 
 yallist@^2.1.2:
   version "2.1.2"
