@@ -2,10 +2,8 @@
 # yarn lockfile v1
 
 
-"@jonathanleelx/awesome-react-component@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.npmjs.org/@jonathanleelx/awesome-react-component/-/awesome-react-component-1.0.0.tgz#88a69f9b8ca450fda4cabee89c10af451b34cee5"
-  integrity sha512-S2v1yCwSup3Mj7NCOYR/r4wyoBl6HuLzObf2LuJs8Ph9aZGK+StU2XdeIKuph6yttDm+2sQmU6+849UE98CIzw==
+"@jonathanleelx/awesome-react-component@link:..":
+  version "1.0.1"
 
 abab@^1.0.3:
   version "1.0.4"
@@ -391,10 +389,6 @@ autoprefixer@^6.3.1:
     num2fraction "^1.2.2"
     postcss "^5.2.16"
     postcss-value-parser "^3.2.3"
-
-"awesome-react-component@link:..":
-  version "0.0.0"
-  uid ""
 
 aws-sign2@~0.7.0:
   version "0.7.0"
@@ -5752,9 +5746,9 @@ path-key@^2.0.0:
   integrity sha1-QRyttXTFoUDTpLGRDUDYDMn0C0A=
 
 path-parse@^1.0.5, path-parse@^1.0.6:
-  version "1.0.6"
-  resolved "https://registry.npm.taobao.org/path-parse/download/path-parse-1.0.6.tgz#d62dbb5679405d72c4737ec58600e9ddcf06d24c"
-  integrity sha1-1i27VnlAXXLEc37FhgDp3c8G0kw=
+  version "1.0.7"
+  resolved "https://registry.yarnpkg.com/path-parse/-/path-parse-1.0.7.tgz#fbc114b60ca42b30d9daf5858e4bd68bbedb6735"
+  integrity sha512-LDJzPVEEEPR+y48z93A0Ed0yXb8pAByGWo/k5YYdYgpY2/2EsOsksJrq7lOHxryrVOn1ejG6oAp8ahvOIQD8sw==
 
 path-to-regexp@0.1.7:
   version "0.1.7"
